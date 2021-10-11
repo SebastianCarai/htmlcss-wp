@@ -6,6 +6,7 @@
 }
 
 
+
 /* GENERAL */
 .container{
     width: 80%;
@@ -25,23 +26,27 @@ body{
     object-fit: cover;
 }
 .overlay{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
 }
+.grey{
+    color: #b2b2b2;
+}
+
 
 
 /* HEADER */
 .top-box img{
-    height: 65px;
+    height: 75px;
     padding-right: 20px;
     border-right: 1px solid #e5e5e5;
 }
 .menù{
-    margin-top: 2%;
+    margin: 3% 0;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 800;
@@ -74,19 +79,26 @@ body{
     font-weight: 400;
 }
 
+
+
 /* MAIN */
 main{
-    background-color: #0186fe;
     margin: 3% 0 1%;
 }
+
+/* Main title */
 .title{
-    background-color: #abcfe7;
-    height: 70px;
+    font-size: 40px;
+    font-weight: 900;
 }
+.subtitle{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* Main content */
 .column{
-    height: 400px;
-    float: left;
-    background-color: #abcfe7;
+    float: left;    
 }
 .lateral{
     width: 23%;
@@ -96,10 +108,27 @@ main{
     margin: 2% 2%;
     width: 50%;
 }
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+.main-content-title{
+    margin: 2% 0 1%;
+    font-weight: 900;
+}
 
 /* FOOTER */
-.purple{
-    background-color: #8801fe;
-    height: 50px;
+.credits{
+    margin-bottom: 1%;
+    text-align: center;
+   font-size: 15px;
+   font-weight: 600;
+}
+.heart{
+    color: red;
+    font-size: 20px;
 }
